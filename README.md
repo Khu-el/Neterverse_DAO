@@ -19,5 +19,8 @@ This DAO exists as an ecclesiastical structure operating privately under law of 
 - [`CLAUDE.md`](CLAUDE.md) — repo-specific guidance, including how jurisdictional and
   ecclesiastical claims in this repo must be stated: what the trust **asserts** is a
   document claim, not a statement of settled external law binding on an unrelated party.
+- [`docs/CONTROL_PLANE.md`](docs/CONTROL_PLANE.md) — how this repository participates in
+  the shared control plane, and why coordination state belongs in one canonical bus
+  rather than here.
 
 *Nothing in this repository is legal advice.*
