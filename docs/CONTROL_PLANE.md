@@ -54,14 +54,12 @@ template is R2 and fine. Sending, serving or recording one is R3 or R4 and stops
 
 ---
 
-## ⚖️ And the rule that governs the content itself
+## ⚖️ The content rule lives elsewhere
 
-Everything here states what the trust **asserts**. An assertion is a document
-claim, never a statement of settled external law binding an unrelated party or
-public authority. Whether an agency, court, bank, recorder or counterparty is
-bound is a **separate question with separate evidence** — usually 🟠 TENTATIVE or
-⚪ UNKNOWN absent controlling authority.
+The rule that everything here states what the trust *asserts* — a document claim,
+never settled external law binding an unrelated party — is already written in
+[`CLAUDE.md`](../CLAUDE.md) and Executive OS §6. This file does not restate it,
+because a pointer that copies its sources becomes a second source.
 
-The control plane records this as an assertion status. It does not upgrade one.
-
-*Nothing in this repository is legal advice.*
+One thing to add rather than repeat: the control plane **records** an assertion
+status. It never upgrades one.
