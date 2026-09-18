@@ -1,0 +1,42 @@
+name: Verify
+
+# CLAUDE.md is deliberate that this repo has no framework, bundler, package
+# manager or test suite, and that a static page which loads everywhere is the
+# design. This workflow does not change that: it installs nothing, adds no
+# package.json and introduces no build step. It runs one stdlib-only Python
+# script against the committed HTML.
+#
+# It checks the two things reviewers have been checking by reading -- PR #3
+# recorded "verified: page tag nesting is balanced" as a manual read -- and
+# leaves everything else to the person editing the page.
+#
+# It cannot check what actually matters most in this repository: whether a
+# jurisdictional claim is sound, whether a cited authority is real, or whether
+# a "#" placeholder is still honest. Those are Executive OS §5, §6 and §7
+# obligations on a human, and a green check here is not evidence about any of
+# them. Nor does a green check authorize publishing anything: §10 is unchanged.
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+concurrency:
+  group: verify-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      # Tag nesting is balanced, and the page pulls no script, stylesheet,
+      # font or frame from a third party -- which is why it renders offline
+      # and behind a restrictive network.
+      - name: Check the portal page
+        run: python3 scripts/check_page.py
