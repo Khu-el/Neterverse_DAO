@@ -35,20 +35,45 @@ Templates: `docs/ai-council/TEMPLATES.md`. Audits: `docs/ai-council/AUDIT_LOG.md
 
 ## 🧬 What this repo is
 
-The public-facing hub for the **Neterverse Administration Trust DAO**. Currently three
-plain files, no build step, no dependencies:
+The public-facing hub for the **Neterverse Administration Trust DAO**. Three plain page
+files, the two controlling standards, and one check script — no build step, no dependencies:
 
 ```
 index.html                    Static portal page (inline CSS, dark/gold/emerald palette)
 README.md                     Repo + DAO overview, links
 Public_Notice_Template.txt    Template for a public notice of ecclesiastical standing
+docs/                         EXECUTIVE_OS.md · AI_COUNCIL.md · ai-council/
+scripts/check_page.py         Page check, stdlib-only (see below)
 ```
 
-**Stack:** hand-written static HTML. There is no framework, bundler, package manager,
-test suite, or CI. Do not introduce one without being asked — a static page that loads
-everywhere is the current design. If a build step ever becomes necessary, say why first.
+**Stack:** hand-written static HTML. There is still no framework, bundler, package
+manager or test suite. Do not introduce one without being asked — a static page that
+loads everywhere is the current design. If a build step ever becomes necessary, say why
+first.
 
 To preview: open `index.html` in a browser, or `python3 -m http.server` from the repo root.
+
+## ✅ The one check that runs
+
+```bash
+python3 scripts/check_page.py     # what CI runs; no install step
+```
+
+`.github/workflows/verify.yml` runs exactly this on every pull request. It is stdlib-only
+and adds no dependency or build step. It checks two mechanical things reviewers were
+checking by reading:
+
+- **Tag nesting is balanced.** PR #3 recorded this as a manual read; it is now automated.
+- **No external subresource.** No `<script src>`, stylesheet `<link>`, `<iframe>`, remote
+  `@font-face` or `@import` pointing off-site. This is why the page renders offline and
+  behind a restrictive network. An ordinary `<a href>` to another site is a link, not a
+  subresource — the Discord row is one and does not trip it.
+
+**⚠️ What a green check is not evidence of.** It says nothing about whether a
+jurisdictional claim is sound, whether a cited authority is real, or whether a `#`
+placeholder is still honest — the obligations in §5, §6 and §7 below, all of which rest
+on the person editing the page. **And it is not authorization to publish:** the approval
+boundary is unchanged, and a passing check is not a §10 release gate.
 
 ## ⚖️ The single most important rule for this repo
 
