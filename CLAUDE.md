@@ -123,6 +123,27 @@ conflicts rather than silently reconciling them.** The lane distinction matters:
 is public-facing, while the estate app is deliberately private Lane B — do not move
 content from there to here.
 
+## 🗂️ The Claude Project for this repo
+
+Work on this repository has a defined Claude Project: **`CP-NTE-003` — Neterverse Administration
+Trust DAO — Public Portal**, capacity `NTE`, Lane A.
+
+Its definition, its source manifest and its custom instructions live in `Khu-el/Khu-el` at
+`docs/claude-projects/projects/CP-NTE-003.md`, governed by `docs/claude-projects/SPEC.md` there.
+**That is the single copy — this file links to it rather than restating it** (§4, artifact-first;
+the same reason `DOMAIN_NETWORK.md` is not duplicated here).
+
+Two points that bear directly on this repo:
+
+- **The project must not absorb Lane B estate material.** This repo is public-facing; the estate
+  app is deliberately private Lane B. That boundary is stated below and is enforced in the
+  project's manifest as an explicit exclusion.
+- **A loaded project is not authorization to publish.** The §10 boundary below is unchanged, and
+  the project's own instructions restate it in these terms: preparing a notice is fine, serving or
+  recording one is not.
+
+---
+
 ## 🎨 Editing the portal page
 
 `index.html` keeps its inline styles and existing palette (`#1C1C1C` ground, `#D4AF37`
