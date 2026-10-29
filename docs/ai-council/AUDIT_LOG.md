@@ -12,7 +12,7 @@ material.
 
 | ID | Date | Subject | Auditor | Findings | Status |
 |----|------|---------|---------|----------|--------|
-| `AUD-DAO-001` | 2026-09-14 | Baseline audit at adoption of the AI Council standard | Claude Code (Anthropic) | 3 | `OPEN — awaiting principal's decision` |
+| `AUD-DAO-001` | 2026-09-14 | Baseline audit at adoption of the AI Council standard | Claude Code (Anthropic) | 3 | `OPEN — #1 drafted on a branch (2026-10-29), not merged; #2–#3 awaiting decision` |
 
 ---
 
@@ -72,3 +72,15 @@ is not proposed here.**
 
 - Finding #1 — editing the notice template text.
 - Any use of the notice beyond drafting. Not requested, not proposed, not authorized.
+
+## 🔄 Update — 2026-10-29
+
+**CONTRIBUTOR:** Claude Code (Anthropic) · **BRANCH:** `claude/compliance-first-notice`
+
+- **Finding #1 — drafted, not merged.** The principal instructed the frame to be drafted on
+  2026-10-29. `Public_Notice_Template.txt` now carries a header and footer band; the body
+  between them is byte-identical to `main` (SHA-256 `03dc29d2…0c5d` before and after). 🟢 KNOWN
+- **Still not authorized:** serving, sending, filing, recording, or publishing the notice.
+  Merging the branch is the principal's decision, and merging is not authorization for any of
+  those acts.
+- **Findings #2 and #3** are unchanged and still open.
