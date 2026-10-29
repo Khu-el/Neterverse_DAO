@@ -12,7 +12,7 @@ material.
 
 | ID | Date | Subject | Auditor | Findings | Status |
 |----|------|---------|---------|----------|--------|
-| `AUD-DAO-001` | 2026-09-14 | Baseline audit at adoption of the AI Council standard | Claude Code (Anthropic) | 3 | `OPEN — #1 drafted on a branch (2026-10-29), not merged; #2–#3 awaiting decision` |
+| `AUD-DAO-001` | 2026-09-14 | Baseline audit at adoption of the AI Council standard | Claude Code (Anthropic) | 3 | `OPEN — #1 approved on a branch (2026-10-29), merge/publish pending; #2–#3 awaiting decision` |
 
 ---
 
@@ -83,4 +83,10 @@ is not proposed here.**
 - **Still not authorized:** serving, sending, filing, recording, or publishing the notice.
   Merging the branch is the principal's decision, and merging is not authorization for any of
   those acts.
+- **Approved, 2026-10-29.** The principal approved the drafted wording on the branch — the
+  notice's "What that covers" and "What it does not claim" paragraphs, the Tokens & Digital
+  Records and Not Advice sections, and the template frame — in the words "A. Approve". 🟢 KNOWN
+- **Not yet published.** The live Pages site serves `main` (checked 2026-10-29: it still shows
+  the earlier notice), so merging this branch publishes the new notice. That merge awaits the
+  principal's express instruction for that act (§10).
 - **Findings #2 and #3** are unchanged and still open.
