@@ -96,6 +96,16 @@ Practically, when drafting, editing, or reviewing content in this repo:
   treaty, or filing reference. §5's source hierarchy applies: enacted law and controlling
   decisions outrank commentary, and forum/social material may *identify* an issue but
   never *establishes* it.
+- **📏 Cite it only for what it actually says.** A real citation that does not support the
+  sentence is worse than none — it borrows authority it does not have. Read the provision
+  before citing it, and keep its exact terms: a registration requirement is not evidence of
+  a registration, and a "burden of going forward with the evidence" is not a burden of
+  proof. (A reference site reviewed on 2026-10-29 cited 21 U.S.C. § 822 and § 885 as the
+  basis for operating lawfully. § 822 is the duty to register. § 885(a)(1) puts the burden
+  of going forward with evidence of an exemption on the person claiming it, and § 885(b)
+  presumes a person is not registered absent proof that they are. *Ruan v. United States*,
+  No. 20-1410 (U.S. June 27, 2022), reads § 885 as shifting the burden of production, not
+  persuasion.)
 - **🥊 Red-team before publishing (§7).** What would a regulator, court, bank, county
   recorder, or opposing attorney say about this sentence? If the honest answer is "they
   would not accept it," the text should say what the trust asserts — not what everyone

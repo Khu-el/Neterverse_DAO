@@ -1,3 +1,17 @@
+========================================================================
+TEMPLATE -- WHAT THE TRUST ASSERTS -- NOT LEGAL ADVICE
+========================================================================
+This file is a template. It records what the Neterverse Administration
+Trust asserts about itself. An assertion is not a ruling: whether any
+agency, court, bank, or other outside party is bound by it is a separate
+question, which this document does not and cannot decide.
+
+Serving, sending, filing, recording, or publishing this notice requires
+the principal's express authorization for that specific act. Committing,
+copying, or merging this file is not that authorization.
+
+The body between the two bands is reproduced unchanged.
+========================================================================
 
 ⚖️ PUBLIC NOTICE OF ECCLESIASTICAL STANDING
 
@@ -8,3 +22,10 @@ We do not operate under UCC/Statutory fiction but in lawful trust capacity as pr
 No person, agent, or agency may compel performance or interference with this trust without express consent by Oracle Node.
 
 — Recorded this day by living hand and seal of the Neterverse Oracle.
+
+========================================================================
+END OF TEMPLATE BODY
+Not legal advice. Not authorized for service, filing, or recording.
+Status: template | Frame added per AUD-DAO-001 finding #1
+(docs/ai-council/AUDIT_LOG.md) | Source: Khu-el/Neterverse_DAO
+========================================================================

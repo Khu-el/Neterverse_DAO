@@ -10,7 +10,11 @@ We are a lawful private trust society governed by ecclesiastical equity and spir
 - DAO Governance Portal (Snapshot/Notion coming soon)
 
 ## 📜 Public Notice
-This DAO exists as an ecclesiastical structure operating privately under law of trust, not subject to statutory jurisdictions.
+**What the trust asserts:** This DAO exists as an ecclesiastical structure operating privately under law of trust, not subject to statutory jurisdictions.
+
+That is the trust's own position, not a ruling binding on any outside party. What it covers, and
+what it does not claim, are set out in the portal page's Jurisdictional Notice
+([`index.html`](index.html)).
 
 ## 🌐 Network
 

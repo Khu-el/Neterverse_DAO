@@ -12,7 +12,7 @@ material.
 
 | ID | Date | Subject | Auditor | Findings | Status |
 |----|------|---------|---------|----------|--------|
-| `AUD-DAO-001` | 2026-09-14 | Baseline audit at adoption of the AI Council standard | Claude Code (Anthropic) | 3 | `OPEN — awaiting principal's decision` |
+| `AUD-DAO-001` | 2026-09-14 | Baseline audit at adoption of the AI Council standard | Claude Code (Anthropic) | 3 | `OPEN — #1 approved (2026-10-29) and publication authorized (2026-11-02, PR #9); #2–#3 awaiting decision` |
 
 ---
 
@@ -72,3 +72,21 @@ is not proposed here.**
 
 - Finding #1 — editing the notice template text.
 - Any use of the notice beyond drafting. Not requested, not proposed, not authorized.
+
+## 🔄 Update — 2026-10-29
+
+**CONTRIBUTOR:** Claude Code (Anthropic) · **BRANCH:** `claude/compliance-first-notice`
+
+- **Finding #1 — drafted, 2026-10-29.** The principal instructed the frame to be drafted.
+  `Public_Notice_Template.txt` now carries a header and footer band; the body between them is
+  byte-identical to `main` (SHA-256 `03dc29d2…0c5d` before and after). 🟢 KNOWN
+- **Approved, 2026-10-29.** The principal approved the drafted wording on the branch — the
+  notice's "What that covers" and "What it does not claim" paragraphs, the Tokens & Digital
+  Records and Not Advice sections, and the template frame — in the words "A. Approve". 🟢 KNOWN
+- **Publication authorized, 2026-11-02.** The live Pages site serves `main` (checked
+  2026-10-29), so merging publishes the page and the framed template file. The principal
+  authorized that merge in the words "Proceed", in reply to "Say 'merge A' and I'll do it."
+  (PR #9). 🟢 KNOWN
+- **Still not authorized:** serving, sending, filing, or recording the notice to or with anyone.
+  Publishing the page and the template file on the site is not service on any party.
+- **Findings #2 and #3** are unchanged and still open.
