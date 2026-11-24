@@ -10,6 +10,24 @@
 This file is the repo-specific layer on top of both. Where they appear to disagree, **the
 stricter reading wins**; a task-specific instruction from the principal overrides both.
 
+**🔬 Resolution.** Every task here is also written and carried out at the resolution set by
+`docs/TASK_DETAIL_STANDARD.md` in `Khu-el/Khu-el` — the single copy, linked rather than restated
+(§4). When that repository is not checked out, this minimum still applies, and where it differs from
+the canonical copy the canonical copy wins:
+
+1. Count the parts of a multi-part instruction; one missing → name it and stop. Then four lines:
+   *will do · need from you · will never do · first-run state*.
+2. Numbered steps, each with *blocking · do · done when · proof · on failure*. After a blocking
+   step, show the proof and wait for "ok".
+3. Every threshold is a named `[setting]` with a default and a range. The agent never changes one
+   itself.
+4. Where support is uncertain, write Plan A / B / C and say which one works. Never pretend.
+5. Acceptance checks are exact input → exact expected output, run and shown before "done".
+6. Report the highest state proven: *proposed → drafted → saved → locally tested → deployed →
+   live-verified*.
+
+None of this moves the approval boundary below.
+
 ---
 
 ## 🤝 Working alongside other contributors
